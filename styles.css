@@ -52,9 +52,14 @@
 }
 .link-boxes{
 	padding:30px;
-	height:200px;
+	
 	display:flex;
 	
+}
+li{
+	padding:50px;
+	display:flex;
+	flex-wrap:wrap;
 }
 .link-boxes>ul{
 	color:white;
@@ -63,6 +68,9 @@
 	align-item:start;
 	list-style-type:none;
 	
+}
+.link-boxes>ul>li{
+	flex-wrap:wrap;
 }
 .link-boxes>ul>li>a{
 	color:gray;
