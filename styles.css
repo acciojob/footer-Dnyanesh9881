@@ -53,7 +53,7 @@
 .link-boxes{
 	padding:30px;
 	height:200px;
-/* 	display:flex; */
+	display:flex;
 	
 }
 .link-boxes>ul{
