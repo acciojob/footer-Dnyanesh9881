@@ -7,7 +7,7 @@
 }
 .content{
 	background-color:black;
-	width:100vw;
+	width:vw;
 }
 .top{
 	display:flex;
@@ -45,7 +45,6 @@
 	align-items:center;
 }
 .media-icons>a{
-	
 	color:white;
 	padding:10px;
 	border-radius:50%
@@ -54,9 +53,10 @@
 	width:100%;
 	padding:30px;
 	display:flex;
-	
 }
+
 li{
+	
 	padding:30px;
 	display:flex;
 	flex-wrap:wrap;
