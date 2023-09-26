@@ -11,14 +11,16 @@
 }
 .top{
 	display:flex;
+	flex-wrap:wrap;
 	justify-content:space-between;
 	align-items:center;
 	padding:30px;
+	
 }
 .logo-details{
 	color:white;
 	font-size:30px;
-	
+	padding:10px;
 }
 .faceb{
 	background-color:#3b5998;
@@ -35,7 +37,15 @@
 .you{
 	background-color:#c4302b;
 }
+.media-icons{
+		width:30vw;	 
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	align-items:center;
+}
 .media-icons>a{
+	
 	color:white;
 	padding:10px;
 	border-radius:50%
@@ -43,6 +53,8 @@
 .link-boxes{
 	padding:30px;
 	height:200px;
+/* 	display:flex; */
+	
 }
 .link-boxes>ul{
 	color:white;
@@ -50,6 +62,7 @@
 	justify-content:space-around;
 	align-item:start;
 	list-style-type:none;
+	
 }
 .link-boxes>ul>li>a{
 	color:gray;
