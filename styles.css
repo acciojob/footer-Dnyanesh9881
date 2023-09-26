@@ -1,1 +1,69 @@
 /* your code here */
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family:sans-serif
+}
+.content{
+	background-color:black;
+	
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:30px;
+}
+.logo-details{
+	color:white;
+	font-size:30px;
+	
+}
+.faceb{
+	background-color:#3b5998;
+}
+.twit{
+	background-color: #00acee;
+}
+.insta{
+	 background: linear-gradient(45deg, blue, transparent), radial-gradient(red, transparent);
+}
+.linked{
+	background-color:#0077B5;
+}
+.you{
+	background-color:#c4302b;
+}
+.media-icons>a{
+	color:white;
+	padding:10px;
+	border-radius:50%
+}
+.link-boxes{
+	padding:30px;
+	height:200px;
+}
+.link-boxes>ul{
+	color:white;
+	display:flex;
+	justify-content:space-around;
+	align-item:start;
+	list-style-type:none;
+}
+.link-boxes>ul>li>a{
+	color:gray;
+	font-size:13px;
+	text-decoration:none;
+	
+}
+.bottom-details{
+	height:35px;
+	background-color:gray;
+	font-size:14px;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	padding-inline:30px;
+	align-items:center
+}
